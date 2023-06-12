@@ -6,7 +6,7 @@ print("\nHello, welcome to 0xSamuel Pizza!!!!!!!\n")
 
 name = input("What is your name?\n")
 
-print("Hello " + name + ", thank you so much for coming in today.\n\n\n")
+print("Hello " + name + ", thank you so much for coming in today.\n\n")
 
 menu = "Personal Pizza, Medium Pizza, Large Pizza, XL Pizza"
 
@@ -14,4 +14,13 @@ print(name + ", what would you like from our menu today? Here is what we are ser
 
 order = input()
 
-print("\nSounds good " + name + ", we'll have that " + order + " ready for you in 10-15 minutes.")
+price = 12
+
+quantity = input("How many pizzas would you like?\n")
+
+total = price * int(quantity)
+
+print("Thank you. Your total is: $" + str(total))
+
+print("Sounds good " + name + ", we'll have your " + quantity + " " + order + " ready for you in 10-15 minutes.\n")
+
