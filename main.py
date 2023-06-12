@@ -7,6 +7,4 @@
 #I am practicing Python...
 #
 
-print(""" I am Iron Man. 
-No, I am Tony Stark. 
-No, I am Poppy.""")
+print("I am Iron Man. \n" + "No, I am Tony Stark. \n" + "No, I am Poppy.")
