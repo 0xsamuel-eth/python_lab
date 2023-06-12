@@ -2,15 +2,21 @@
 
 #Let's build robot Cashier
 
+#Greet customer
 print("\nHello, welcome to 0xSamuel Pizza!!!!!!!\n")
 
+#Ask for customer name
 name = input("What is your name?\n")
 
+#Greet customer w/ name and thank them for coming
 if name == "Ben":
     print("You're not welcome here Evil Ben!! Get out!!")
+    exit()
 else:
     print("Hello " + name + ", thank you so much for coming in today.\n\n")
 
+
+#Pizza Menu
 menu = "Personal Pizza, Medium Pizza, Large Pizza, XL Pizza"
 
 print(name + ", what would you like from our menu today? Here is what we are serving.\n" + menu)
