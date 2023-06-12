@@ -1,2 +1,3 @@
 # python_lab
-Python scripts to learn extensive Python
+
+Python scripting environment to learn beginner, intermediate, and advanced Python programming
