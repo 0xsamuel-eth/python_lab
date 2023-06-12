@@ -6,7 +6,10 @@ print("\nHello, welcome to 0xSamuel Pizza!!!!!!!\n")
 
 name = input("What is your name?\n")
 
-print("Hello " + name + ", thank you so much for coming in today.\n\n")
+if name == "Ben":
+    print("You're not welcome here Evil Ben!! Get out!!")
+else:
+    print("Hello " + name + ", thank you so much for coming in today.\n\n")
 
 menu = "Personal Pizza, Medium Pizza, Large Pizza, XL Pizza"
 
