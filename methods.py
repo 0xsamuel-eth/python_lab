@@ -8,13 +8,21 @@ supplies = ["tent", "sleeping bags", "water", "raspberry pi", "coffee", "knife",
 camp_site = ["Crystal Lake", 404, 95.5, 10, False]
 
 #supplies.append("toilet paper")
+#supplies.insert(0, "bidet")
 
-#supplies.extend("toilet paper", "bidet")
+#Adding an item to second to last location in list
+#supplies.insert(-1, "toilet paper")
 
-supplies.insert(0, "bidet")
+supplies.extend(["toilet paper", "bidet"])
 
-#Add an item to second to last location in list
-supplies.insert(-1, "toilet paper")
+#Remove entire list
+#supplies.clear()
+
+#supplies.remove("tent")
+#supplies.remove("sleeping bags")
+
+print("This item was just deleted: " + supplies.pop(0))
+supplies.pop(0)
 
 print(supplies)
 
