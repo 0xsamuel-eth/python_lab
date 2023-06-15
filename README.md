@@ -1,3 +1,4 @@
 # python_lab
 
-Python scripting environment to learn beginner and intermediate Python programming
+Python scripting workspace to learn beginner and intermediate Python programming
+Follows NetworkChuck Python Tutorial on YT
